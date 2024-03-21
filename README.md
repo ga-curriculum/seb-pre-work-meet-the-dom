@@ -194,6 +194,12 @@ Ready to get some `querySelector()` practice?
 
 Fill in the correct arguments in the `querySelector()` methods to grab the requested HTML elements. We’ve provided some `console.log()`  statements to confirm that you’ve correctly accessed the elements.
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="QuerySelector Practice" src="https://codepen.io/GAmarketing/embed/zYXombN?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/zYXombN">
+  QuerySelector Practice</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ---
 
 <h1 class="slide-header">Manipulating the DOM</h1>
@@ -357,13 +363,19 @@ Another key skill is the ability to look up answers to things you don’t know. 
 
 <h1 class="slide-header">Accessing Elements</h1>
 
-`console.log()` the text of the element with the ID of `title`.
+Store the text of the element with the ID of `title` in a variable named `titleText`.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Accessing Elements" src="https://codepen.io/GAmarketing/embed/xxeRyBr?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/xxeRyBr">
+  Accessing Elements</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
 <h1 class="slide-header">Accessing Element Attributes</h1>
 
-`console.log()` the **class** of the first `span` on the page.
+Store the **class** of the first `span` on the page in a variable named `spanClass`.
 
 ---
 
@@ -371,11 +383,23 @@ Another key skill is the ability to look up answers to things you don’t know. 
 
 Change the text color in the first element to blue by using the `blue` class.
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="Updating the Blue Span" src="https://codepen.io/GAmarketing/embed/YzMpJgL?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/YzMpJgL">
+  Updating the Blue Span</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
 ---
 
 <h1 class="slide-header">Updating Elements</h1>
 
 Change the text in the `h1` with the ID of `title` to say `Come on in!`, instead of `Welcome to the DOM`.
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Welcome to the DOM" src="https://codepen.io/GAmarketing/embed/gOyLBEQ?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/gOyLBEQ">
+  Welcome to the DOM</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
@@ -383,11 +407,23 @@ Change the text in the `h1` with the ID of `title` to say `Come on in!`, instead
 
 Create an `h4` element with the text of `Powered by JavaScript`. Add that element to the end of the `<body>` of the document.
 
+  <iframe height="300" style="width: 100%;" scrolling="no" title="Creating Elements" src="https://codepen.io/GAmarketing/embed/OJGbBqd?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/GAmarketing/pen/OJGbBqd">
+    Creating Elements</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+    on <a href="https://codepen.io">CodePen</a>.
+  </iframe>
+
 ---
 
 <h1 class="slide-header">Removing Elements</h1>
 
 Remove the `h1` element with the ID of `title` from the page. [Documentation](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove) on the `remove()` method can help!
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Removing Elements" src="https://codepen.io/GAmarketing/embed/wvZoYOZ?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/wvZoYOZ">
+  Removing Elements</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ---
 
