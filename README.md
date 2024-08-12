@@ -363,7 +363,7 @@ Another key skill is the ability to look up answers to things you don’t know. 
 
 <h1 class="slide-header">Accessing Elements and Element Properties</h1>
 
-Store the element with the ID of `title` into a variable with a name of your choice (we'd suggest `titleElement`. Access that element's text content and store it in a variable named `titleText`.
+Store the element with the ID of `title` into a variable with a name of your choice (we'd suggest a name like `titleElement`). Access that element's text content and store it in a variable named `titleText`.
 
 <iframe sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Accessing Elements" src="https://codepen.io/GAmarketing/embed/xxeRyBr?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/xxeRyBr">
@@ -377,6 +377,12 @@ Store the element with the ID of `title` into a variable with a name of your cho
 
 Store the **class** of the first `span` on the page in a variable named `spanClass`.
 
+<iframe sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin" height="400" style="width: 100%;" scrolling="no" title="Accessing Attributes" src="https://codepen.io/GAmarketing/embed/oNOYaVp?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/GAmarketing/pen/oNOYaVp">
+  Accessing Attributes</a> by General Assembly (<a href="https://codepen.io/GAmarketing">@GAmarketing</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+	
 ---
 
 <h1 class="slide-header">Updating Elements</h1>
