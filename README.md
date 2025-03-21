@@ -486,7 +486,7 @@ For this exercise you will need to view both the HTML and Javascript sections of
 For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
 
 **1. Select the `h1` element with the ID of `title`.**  
-**2. Change its text to say `Come on in!`.**
+**2. Change its text to say `Javascript is great!`.**
 
 <iframe sandbox="allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-forms allow-popups allow-same-origin"  height="400" style="width: 100%;" scrolling="no" title="Welcome to the DOM" src="https://codepen.io/GAmarketing/embed/gOyLBEQ?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/GAmarketing/pen/gOyLBEQ">
