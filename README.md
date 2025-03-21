@@ -220,6 +220,8 @@ Take a look at the following code snippet. How would we grab the element with th
 
 Let’s practice using `querySelector()`!
 
+For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
+
 **1. Look at each `querySelector()` method and fill in the correct arguments to select the requested HTML elements.**  
 **2. Use CSS selector syntax inside the parentheses.**  
 **3. We’ve included `console.log()` statements to help you check if you’ve selected the correct elements.**
