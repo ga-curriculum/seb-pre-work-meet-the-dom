@@ -49,7 +49,7 @@ Let’s break down what the DOM means:
 - **Object:** Every HTML element (like `<head>`, `<body>`, or `<p>`) is treated as an object. Because these elements are objects, we can use special commands (called methods and properties) to change them, remove them, or add new elements.
 - **Model:** The model is how all these objects are arranged in a structured, tree-like format called the **DOM tree**. You might hear the terms “node,” “object,” and “element” — all of these are used to describe parts of the DOM.
 
-<img src="./assets/DOM-Tree-Annotated.svg" alt="DOM Tree" style="width:500px;"/>
+<img src="./assets/DOM-Tree-Annotated.svg" alt="DOM Tree" style="width:600px;"/>
 
 ---
 
@@ -185,6 +185,9 @@ Here’s how we use query selector methods to find elements in the DOM:
 | `document.querySelector('#hero')`    | Selects the **first** element with the ID `"hero"`.                     |
 | `document.querySelector('.magic p')` | Selects the **first** `<p>` inside an element with the class `"magic"`. |
 
+
+<br>
+
 The method `document.querySelectorAll()` works similarly, but instead of just one element, it will select **all** elements that match the query.
 
 ---
@@ -245,6 +248,8 @@ There are many things you can do with a DOM element. Here are some of the most c
 | `element.parentNode` | Returns the parent element that contains the selected element. | `document.querySelector('h2').parentNode;` returns the parent element of the `<h2>`.                      |
 | `element.childNodes` | Returns a list of all child nodes inside the selected element. | `document.querySelector('h2').childNodes;` returns any child nodes inside the `<h2>`.                     |
 
+<br>
+
 We’ll use these properties often to make pages dynamic and responsive to user interactions.
 
 ---
@@ -268,8 +273,7 @@ We want to update it so it looks like this:
 To do this with JavaScript, we can use the `innerHTML` property to replace the entire content of the `<h1>`:
 
 ```javascript
-document.querySelector('h1').innerHTML =
-  "Visit my <a href='http://www.coolsite.net'>site</a>";
+document.querySelector('h1').innerHTML = 'Visit my <a href="http://www.coolsite.net">site</a>';
 ```
 
 This shows how you can use `innerHTML` to dynamically update elements with new content and even new HTML tags.
@@ -430,6 +434,8 @@ Keep going — each challenge is building your skills!
 
 <h1 class="slide-header">Accessing Elements and Element Properties</h1>
 
+For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
+
 **1. Select the element with the ID of `title` and store it in a variable called `titleElement`.**  
 **2. Get the text content from `titleElement` and store it in a variable named `titleText`.**
 
@@ -445,6 +451,8 @@ This will help you practice selecting elements and reading their properties.
 
 <h1 class="slide-header">Accessing Element Attributes</h1>
 
+For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
+
 **1. Select the first `span` element on the page.**  
 **2. Get the value of its `class` attribute and store it in a variable called `spanClass`.**
 
@@ -457,6 +465,8 @@ This will help you practice selecting elements and reading their properties.
 ---
 
 <h1 class="slide-header">Updating Elements</h1>
+
+For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
 
 **1. Select the first element on the page.**  
 **2. Add the class `blue` to that element to change its text color.**
@@ -471,6 +481,8 @@ This will help you practice selecting elements and reading their properties.
 
 <h1 class="slide-header">Updating Elements</h1>
 
+For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
+
 **1. Select the `h1` element with the ID of `title`.**  
 **2. Change its text to say `Come on in!`.**
 
@@ -483,6 +495,8 @@ This will help you practice selecting elements and reading their properties.
 ---
 
 <h1 class="slide-header">Creating Elements</h1>
+
+For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
 
 **1. Create a new `h4` element.**  
 **2. Set the text of the `h4` element to `Powered by JavaScript`.**  
@@ -497,6 +511,8 @@ This will help you practice selecting elements and reading their properties.
 ---
 
 <h1 class="slide-header">Removing Elements</h1>
+
+For this exercise you will need to view both the HTML and Javascript sections of the CodePen.
 
 **1. Select the `h1` element with the ID of `title`.**  
 **2. Remove the selected element from the page using the `remove()` method.**  
