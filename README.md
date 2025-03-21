@@ -1,4 +1,4 @@
-<!-- <textarea id="source"> -->
+<textarea id="source">
 
 <h1 class="slide-header">Meet the DOM</h1>
 
